@@ -1,0 +1,692 @@
+.icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.exploreProduct {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 7.875rem;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+.exploreProductWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0.475rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.maskGroupIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -0.062rem;
+  left: 0;
+  object-fit: cover;
+}
+.bestItems,
+.grtix {
+  margin: 0;
+}
+.grtixBestItemsContainer {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 120%;
+  font-weight: 900;
+  text-shadow: 8.7px 17.4px 10.47px rgba(0, 113, 247, 0.25);
+  z-index: 2;
+}
+.main1,
+.mainWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.main1 {
+  flex: 1;
+  box-shadow: 0 0 52.33px rgba(255, 255, 255, 0.25) inset,
+    0 3.5px 3.49px rgba(0, 0, 0, 0.25);
+  border-radius: 69.78px;
+  background: linear-gradient(180deg, #75eeff, #fe8cde);
+  align-items: flex-end;
+  padding: 2.562rem var(--padding-9xl) 2.581rem;
+  position: relative;
+  gap: 0.543rem;
+  min-height: 41.438rem;
+  z-index: 1;
+}
+.mainWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 1.725rem;
+  text-align: left;
+  font-size: 6.975rem;
+  color: var(--color-white);
+  font-family: var(--font-pretendard-variable);
+}
+.featured,
+.seeAll {
+  position: relative;
+  letter-spacing: -0.02em;
+  z-index: 1;
+}
+.featured {
+  line-height: 7.875rem;
+  mix-blend-mode: overlay;
+}
+.seeAll {
+  line-height: 150%;
+  display: inline-block;
+  min-width: 5.875rem;
+}
+.seeAllButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.981rem 0 0;
+  font-size: 1.963rem;
+  color: #979797;
+  font-family: var(--font-pretendard-variable);
+}
+.featuredParent,
+.mainInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.featuredParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.mainInner {
+  width: 76.469rem;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-64xl-7);
+  color: var(--color-white);
+  font-family: var(--font-pragati-narrow);
+}
+.headphoneIcon,
+.wrapperHeadphone {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.headphoneIcon {
+  overflow: hidden;
+  object-fit: contain;
+  top: 0.375rem;
+  transform: scale(1.018);
+}
+.wrapperHeadphone {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div,
+.grtixHeadphone {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  white-space: nowrap;
+  z-index: 2;
+}
+.grtixHeadphone {
+  font-weight: 500;
+  mix-blend-mode: difference;
+}
+.div {
+  align-self: stretch;
+  height: 3.938rem;
+  font-size: var(--font-size-22xl-9);
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+.grtixHeadphoneParent,
+.headphoneDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.grtixHeadphoneParent {
+  align-self: stretch;
+  gap: var(--gap-6xs);
+}
+.headphoneDetails {
+  height: 35.975rem;
+  width: 18.806rem;
+}
+.buttonIcon {
+  height: 4.363rem;
+  width: 4.363rem;
+  position: relative;
+  border-radius: 174.45px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.productHeadphone {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 3.137rem var(--padding-15xl) 2.343rem 1.312rem;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 25.125rem;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.keyboardIcon,
+.wrapperKeyboard {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.keyboardIcon {
+  overflow: hidden;
+  object-fit: contain;
+  top: 0.375rem;
+  transform: scale(1.018);
+}
+.wrapperKeyboard {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grtixKeyboard {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  mix-blend-mode: difference;
+  z-index: 2;
+}
+.grtixKeyboardWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+}
+.div1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-22xl-9);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 800;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frameParent,
+.keyboardDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  width: 13.844rem;
+  flex-direction: column;
+  gap: 0.087rem;
+}
+.keyboardDetails {
+  align-self: stretch;
+  flex-direction: row;
+}
+.buttonIcon1 {
+  width: 4.363rem;
+  height: 4.363rem;
+  position: relative;
+  border-radius: 174.45px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.productKeyboard,
+.products,
+.productsWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.productKeyboard {
+  flex: 0.9465;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 3.062rem 3.125rem 3.256rem var(--padding-16xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 24.45rem;
+  min-width: 25.125rem;
+}
+.products,
+.productsWrapper {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.products {
+  flex: 1;
+  gap: var(--gap-47xl);
+}
+.productsWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-12xs) var(--padding-9xl) var(--padding-6xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl-4);
+  color: var(--color-white);
+  font-family: var(--font-pretendard);
+}
+.speakerIcon,
+.wrapperSpeaker {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.speakerIcon {
+  overflow: hidden;
+  object-fit: contain;
+  top: 0.375rem;
+  transform: scale(1.018);
+}
+.wrapperSpeaker {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div2,
+.grtixSpeaker {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.grtixSpeaker {
+  font-weight: 500;
+  mix-blend-mode: difference;
+}
+.div2 {
+  align-self: stretch;
+  font-size: var(--font-size-22xl-9);
+  font-weight: 800;
+  color: #111;
+  white-space: nowrap;
+}
+.grtixSpeakerParent,
+.speakerMouseDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.grtixSpeakerParent {
+  width: 13.844rem;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.speakerMouseDetails {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-12xs);
+}
+.buttonIcon2 {
+  width: 4.363rem;
+  height: 4.363rem;
+  position: relative;
+  border-radius: 174.45px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.speakerMouseImages {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 2.556rem var(--padding-14xl) 2.893rem var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 24.968rem;
+  min-width: 25.063rem;
+  max-width: 100%;
+}
+.mouseIcon,
+.wrapperMouse {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.mouseIcon {
+  overflow: hidden;
+  object-fit: contain;
+  top: 0.375rem;
+  transform: scale(1.019);
+}
+.wrapperMouse {
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div3,
+.grtixMouse {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 2;
+}
+.grtixMouse {
+  font-weight: 500;
+  mix-blend-mode: difference;
+}
+.div3 {
+  height: 3.938rem;
+  flex: 1;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-22xl-9);
+}
+.grtixMouseParent,
+.speakerMouseImagesInner,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.grtixMouseParent {
+  width: 21.294rem;
+  flex-direction: column;
+  gap: 0.525rem;
+}
+.speakerMouseImagesInner {
+  align-self: stretch;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+.buttonIcon3 {
+  width: 4.363rem;
+  height: 4.363rem;
+  position: relative;
+  border-radius: 174.45px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.speakerMouseImages1 {
+  flex: 0.9415;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 2.5rem 3.187rem 2.193rem var(--padding-16xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 25.637rem;
+  min-width: 25.063rem;
+  max-width: 100%;
+}
+.main,
+.productSpeakerMouse,
+.speakerMouseImagesParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.speakerMouseImagesParent {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-47xl);
+  max-width: 100%;
+}
+.main,
+.productSpeakerMouse {
+  box-sizing: border-box;
+  text-align: left;
+  color: var(--color-white);
+}
+.productSpeakerMouse {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-5xs);
+  max-width: 100%;
+  font-size: var(--font-size-5xl-4);
+  font-family: var(--font-pretendard);
+}
+.main {
+  width: 100%;
+  position: relative;
+  background-color: #080c59;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 6.543rem 4.125rem 3.756rem;
+  gap: 1.418rem;
+  line-height: normal;
+  letter-spacing: normal;
+  font-size: var(--font-size-64xl-7);
+  font-family: var(--font-pragati-narrow);
+}
+@media screen and (max-width: 1200px) {
+  .productHeadphone,
+  .productKeyboard {
+    flex: 1;
+  }
+  .products {
+    flex-wrap: wrap;
+  }
+  .speakerMouseImages,
+  .speakerMouseImages1 {
+    flex: 1;
+  }
+  .speakerMouseImagesParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .exploreProduct {
+    font-size: var(--font-size-23xl);
+    line-height: 4.688rem;
+  }
+  .grtixBestItemsContainer {
+    font-size: 3.5rem;
+    line-height: 5rem;
+  }
+  .featured {
+    font-size: var(--font-size-23xl);
+    line-height: 4.688rem;
+  }
+  .seeAll {
+    font-size: var(--font-size-6xl);
+    line-height: 2.375rem;
+  }
+  .div,
+  .div1,
+  .div2,
+  .div3 {
+    font-size: var(--font-size-15xl);
+    line-height: 3.125rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .productHeadphone,
+  .productKeyboard {
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .productHeadphone {
+    flex-wrap: wrap;
+    padding-top: var(--padding-14xl);
+    padding-bottom: var(--padding-5xl);
+  }
+  .productKeyboard {
+    gap: 12.25rem;
+    padding-top: var(--padding-13xl);
+    padding-right: var(--padding-6xl);
+    padding-bottom: var(--padding-15xl);
+  }
+  .products {
+    gap: var(--gap-14xl);
+  }
+  .speakerMouseImages {
+    gap: 12.5rem;
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-11xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .speakerMouseImages1 {
+    gap: 12.813rem;
+    padding-top: 1.625rem;
+    padding-right: var(--padding-6xl);
+    padding-bottom: 1.438rem;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .speakerMouseImagesParent {
+    gap: var(--gap-14xl);
+  }
+  .main {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .exploreProduct {
+    font-size: var(--font-size-6xl);
+    line-height: 3.125rem;
+  }
+  .grtixBestItemsContainer {
+    font-size: 2.063rem;
+    line-height: 3.375rem;
+  }
+  .main1 {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .featured {
+    font-size: var(--font-size-6xl);
+    line-height: 3.125rem;
+  }
+  .seeAll {
+    font-size: 1.188rem;
+    line-height: 1.75rem;
+  }
+  .featuredParent {
+    flex-wrap: wrap;
+  }
+  .grtixHeadphone {
+    font-size: var(--font-size-xl);
+    line-height: 1.813rem;
+  }
+  .div {
+    font-size: var(--font-size-6xl);
+    line-height: 2.375rem;
+  }
+  .grtixKeyboard {
+    font-size: var(--font-size-xl);
+    line-height: 1.813rem;
+  }
+  .div1 {
+    font-size: var(--font-size-6xl);
+    line-height: 2.375rem;
+  }
+  .productKeyboard {
+    gap: 6.125rem;
+  }
+  .products {
+    gap: var(--gap-base);
+  }
+  .grtixSpeaker {
+    font-size: var(--font-size-xl);
+    line-height: 1.813rem;
+  }
+  .div2 {
+    font-size: var(--font-size-6xl);
+    line-height: 2.375rem;
+  }
+  .speakerMouseImages {
+    gap: 6.25rem;
+  }
+  .grtixMouse {
+    font-size: var(--font-size-xl);
+    line-height: 1.813rem;
+  }
+  .div3 {
+    font-size: var(--font-size-6xl);
+    line-height: 2.375rem;
+  }
+  .speakerMouseImages1 {
+    gap: 6.438rem;
+  }
+  .speakerMouseImagesParent {
+    gap: var(--gap-base);
+  }
+}

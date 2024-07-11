@@ -1,0 +1,409 @@
+.unionIcon {
+  align-self: stretch;
+  width: 4.125rem;
+  position: relative;
+  max-height: 100%;
+  min-height: 1.25rem;
+  z-index: 1;
+}
+.headphoneTitleChild,
+.headphoneTitleItem {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-darkgray-100);
+  z-index: 1;
+}
+.headphoneTitle,
+.titlePanel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.headphoneTitle {
+  justify-content: flex-start;
+  gap: var(--gap-5xl-5);
+}
+.titlePanel {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-6xl);
+}
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(20px);
+  border-radius: var(--br-61xl);
+  background-color: var(--color-white);
+  mix-blend-mode: soft-light;
+  z-index: 1;
+}
+.grtixHeadphone {
+  margin-right: -9rem;
+  margin: 0;
+  width: 75.625rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 800;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 114%;
+  z-index: 3;
+}
+.headphoneName {
+  width: 66.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.placeholder {
+  position: relative;
+  font-size: var(--font-size-45xl);
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  text-align: right;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 2;
+}
+.description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 20px;
+  max-width: 100%;
+}
+.adaptiveEqAutomatically,
+.musicThatFits {
+  margin: 0;
+}
+.musicThatFitsContainer {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  z-index: 2;
+}
+.color,
+.color1 {
+  position: absolute;
+  border-radius: 50%;
+}
+.color {
+  top: 0;
+  left: 0;
+  border: 0 solid var(--color-silver-200);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.color1 {
+  width: calc(100% - 20px);
+  top: 0.625rem;
+  right: 0.625rem;
+  left: 0.625rem;
+  background-color: var(--color-silver-100);
+  height: 3.75rem;
+  z-index: 3;
+}
+.colorPicker {
+  height: 5rem;
+  flex: 1;
+  position: relative;
+}
+.colorOptionTwo {
+  width: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.color2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-black);
+  z-index: 2;
+}
+.colorOptionOne {
+  height: 4.375rem;
+  width: 4.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.color3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  z-index: 2;
+}
+.colorOptionOne1 {
+  height: 4.375rem;
+  width: 3.75rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.colorOptionOne1,
+.colorOptions,
+.colorSelector {
+  display: flex;
+  align-items: flex-start;
+}
+.colorOptions {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.colorSelector {
+  width: 20.375rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.iconSelectorChild {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  border-radius: var(--br-xl);
+  border: 2px solid var(--color-violet);
+  box-sizing: border-box;
+  display: none;
+}
+.duckIcon {
+  height: 0.488rem;
+  width: 2.919rem;
+  position: relative;
+  z-index: 3;
+}
+.iconContainer,
+.iconSelector {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconSelector {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  border: 2px solid var(--color-violet);
+  flex-direction: row;
+  padding: var(--padding-14xl) var(--padding-xs) var(--padding-15xl)
+    var(--padding-mid);
+  z-index: 2;
+}
+.iconContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 3.25rem;
+}
+.iconLabel {
+  width: 1.813rem;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.frameChild,
+.iconAdd {
+  width: 5rem;
+  position: relative;
+}
+.frameChild {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  border: 2px solid var(--color-violet);
+  box-sizing: border-box;
+  display: none;
+}
+.iconAdd {
+  height: 5rem;
+  z-index: 3;
+}
+.iconContainer1,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  border: 2px solid var(--color-violet);
+  flex-direction: row;
+  z-index: 2;
+}
+.iconContainer1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 3.25rem;
+}
+.colorContainer,
+.iconOption {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.iconOption {
+  width: 21.375rem;
+  justify-content: flex-start;
+  gap: var(--gap-57xl-5);
+}
+.colorContainer {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.colorPanel,
+.features {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.colorPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: right;
+  font-size: var(--font-size-45xl);
+  color: var(--color-violet);
+  font-family: var(--font-pretendard);
+}
+.features {
+  gap: var(--gap-17xl);
+  font-size: var(--font-size-29xl);
+  color: var(--color-lightgray);
+  font-family: var(--font-nexon-lv2-gothic-otf);
+}
+.descriptionPanel,
+.features,
+.infoPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.infoPanel {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: var(--padding-29xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xs);
+}
+.descriptionPanel {
+  flex: 1;
+  align-items: flex-end;
+  gap: var(--gap-41xl);
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-white);
+  font-family: var(--font-pretendard);
+}
+@media screen and (max-width: 1325px) {
+  .description {
+    flex-wrap: wrap;
+  }
+  .infoPanel {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .colorContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .grtixHeadphone {
+    font-size: var(--font-size-29xl);
+    line-height: 5.375rem;
+  }
+  .placeholder {
+    font-size: var(--font-size-32xl);
+    line-height: 4.813rem;
+  }
+  .musicThatFitsContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 3.625rem;
+  }
+  .iconLabel {
+    font-size: var(--font-size-32xl);
+    line-height: 4.813rem;
+  }
+  .features {
+    gap: var(--gap-lg);
+  }
+  .infoPanel {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .descriptionPanel {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .grtixHeadphone,
+  .placeholder {
+    font-size: var(--font-size-10xl);
+    line-height: 3.625rem;
+  }
+  .placeholder {
+    font-size: var(--font-size-19xl);
+  }
+  .musicThatFitsContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 2.688rem;
+  }
+  .colorOptions {
+    flex-wrap: wrap;
+  }
+  .iconLabel {
+    font-size: var(--font-size-19xl);
+    line-height: 3.625rem;
+  }
+  .iconOption {
+    flex-wrap: wrap;
+    gap: var(--gap-19xl);
+  }
+}

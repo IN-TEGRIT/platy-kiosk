@@ -1,0 +1,215 @@
+.icon {
+  width: 90rem;
+  height: 160rem;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.welcomeTo {
+  margin: 0;
+  height: 9rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  text-shadow: 10px 20px 12px rgba(0, 113, 247, 0.25);
+  z-index: 3;
+}
+.welcomeToWrapper {
+  width: 79.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-44xl) 34.187rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-77xl);
+}
+.aMoreComfortable,
+.toGiveA {
+  margin: 0;
+}
+.toGiveAContainer {
+  height: 9rem;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.toGiveAStrongerSoundAndAWrapper {
+  width: 79.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: #56d5e8;
+  font-family: var(--font-nexon-lv2-gothic-otf);
+}
+.start {
+  position: relative;
+  line-height: 150%;
+}
+.bgIcon,
+.button {
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.button {
+  width: 79.875rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 12px 8px rgba(0, 0, 0, 0.05);
+  border-radius: var(--br-181xl);
+  background-color: var(--color-violet);
+  display: flex;
+  z-index: 10;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 4.75rem var(--padding-xl);
+  box-sizing: border-box;
+  font-family: var(--font-pretendard);
+}
+.bgIcon {
+  height: 126.313rem;
+  flex: 1;
+  position: relative;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+}
+.grtixPlace {
+  margin: 0 !important;
+  width: 38.375rem;
+  position: absolute;
+  right: 5.125rem;
+  bottom: 3.75rem;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 900;
+  font-family: inherit;
+  background: linear-gradient(90deg, #fff, #00dfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  text-shadow: 10px 20px 12px rgba(0, 113, 247, 0.25);
+  z-index: 2;
+}
+.welcomeMessage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: 7.5rem;
+  font-family: var(--font-pretendard-variable);
+}
+.headphoneIcon {
+  position: absolute;
+  top: -33.606rem;
+  left: -127.544rem;
+  width: 280.5rem;
+  height: 188.531rem;
+  object-fit: contain;
+  z-index: 4;
+}
+.welcomeMessageParent {
+  width: 100%;
+  height: 154.925rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+}
+.div {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+    191.5deg,
+    rgba(242, 48, 210, 0.5),
+    rgba(8, 12, 89, 0.5)
+  );
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 104.687rem var(--padding-xl) 8.75rem;
+  box-sizing: border-box;
+  gap: 5.312rem;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-pretendard-variable);
+}
+@media screen and (max-width: 1050px) {
+  .welcomeToWrapper {
+    padding-left: 17.063rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .welcomeTo {
+    font-size: var(--font-size-29xl);
+    line-height: 5.375rem;
+  }
+  .start,
+  .toGiveAContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 3.625rem;
+  }
+  .grtixPlace {
+    font-size: var(--font-size-29xl);
+    line-height: 6.75rem;
+  }
+}
+@media screen and (max-width: 725px) {
+  .welcomeToWrapper {
+    padding-left: 8.5rem;
+    box-sizing: border-box;
+  }
+  .div {
+    gap: 2.625rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeTo {
+    font-size: var(--font-size-10xl);
+    line-height: 3.625rem;
+  }
+  .welcomeToWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .start,
+  .toGiveAContainer {
+    font-size: var(--font-size-10xl);
+    line-height: 2.688rem;
+  }
+  .grtixPlace {
+    font-size: 1.875rem;
+    line-height: 4.5rem;
+  }
+  .div {
+    gap: 1.313rem;
+  }
+}

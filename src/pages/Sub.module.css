@@ -1,0 +1,191 @@
+.icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.headphoneIcon {
+  position: absolute;
+  top: 5.688rem;
+  left: -27.187rem;
+  width: 145.625rem;
+  height: 81.938rem;
+  object-fit: cover;
+  z-index: 1;
+}
+.contentChild,
+.zoomIcon {
+  position: absolute;
+  z-index: 2;
+}
+.contentChild {
+  top: 0;
+  left: 3.75rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  mix-blend-mode: overlay;
+}
+.zoomIcon {
+  top: 53.813rem;
+  left: 53.563rem;
+  width: 25rem;
+  height: 25rem;
+  object-fit: contain;
+}
+.content {
+  align-self: stretch;
+  height: 87.625rem;
+  position: relative;
+}
+.rightPanel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-44xl) 4.625rem 3.562rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.lineIcon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.lineWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 3.75rem var(--padding-44xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.buttonPlaceholder {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttonLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) 0 0;
+}
+.b {
+  width: 10.375rem;
+  position: relative;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.button,
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.button {
+  width: 39.563rem;
+  box-shadow: 0 12px 8px rgba(0, 0, 0, 0.05);
+  border-radius: var(--br-181xl);
+  background-color: var(--color-violet);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 2.75rem var(--padding-xl);
+  box-sizing: border-box;
+  z-index: 1;
+  font-size: var(--font-size-29xl);
+}
+.buttonWrapper {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.buttonContainer,
+.sub1 {
+  display: flex;
+  box-sizing: border-box;
+}
+.buttonContainer {
+  width: 89.188rem;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-44xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-pretendard);
+}
+.sub1 {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+    176.57deg,
+    rgba(242, 48, 210, 0.5),
+    rgba(8, 12, 89, 0.5)
+  );
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 5rem 0 6.25rem;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .buttonWrapper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .rightPanel {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-12xl);
+    padding-bottom: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+  .lineWrapper {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .buttonPlaceholder {
+    font-size: var(--font-size-32xl);
+    line-height: 4.813rem;
+  }
+  .b {
+    font-size: var(--font-size-19xl);
+    line-height: 3.625rem;
+  }
+  .buttonContainer {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .buttonPlaceholder {
+    font-size: var(--font-size-19xl);
+    line-height: 3.625rem;
+  }
+  .b {
+    font-size: var(--font-size-10xl);
+    line-height: 2.688rem;
+  }
+}

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=NEXON+Lv2+Gothic+OTF:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pretendard+Variable:wght@400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-pretendard: Pretendard;
+  --font-nexon-lv2-gothic-otf: "NEXON Lv2 Gothic OTF";
+  --font-pretendard-variable: "Pretendard Variable";
+  --font-pragati-narrow: "Pragati Narrow";
+
+  /* font sizes */
+  --font-size-29xl: 3rem;
+  --font-size-10xl: 1.813rem;
+  --font-size-19xl: 2.375rem;
+  --font-size-45xl: 4rem;
+  --font-size-32xl: 3.188rem;
+  --font-size-77xl: 6rem;
+  --font-size-22xl-9: 2.619rem;
+  --font-size-6xl: 1.563rem;
+  --font-size-15xl: 2.125rem;
+  --font-size-5xl-4: 1.525rem;
+  --font-size-xl: 1.25rem;
+  --font-size-64xl-7: 5.231rem;
+  --font-size-23xl: 2.625rem;
+
+  /* Colors */
+  --color-violet: #fe8cde;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-silver-100: #c4c4c4;
+  --color-silver-200: #c3c3c3;
+  --color-lightgray: #ccc;
+  --color-darkgray-100: rgba(151, 151, 151, 0.5);
+
+  /* Gaps */
+  --gap-xl: 1.25rem;
+  --gap-41xl: 3.75rem;
+  --gap-11xl: 1.875rem;
+  --gap-xs: 0.75rem;
+  --gap-17xl: 2.25rem;
+  --gap-lg: 1.125rem;
+  --gap-57xl-5: 4.781rem;
+  --gap-19xl: 2.375rem;
+  --gap-5xl-5: 1.531rem;
+  --gap-47xl: 4.125rem;
+  --gap-14xl: 2.062rem;
+  --gap-base: 1rem;
+  --gap-6xs: 0.437rem;
+
+  /* Paddings */
+  --padding-44xl: 3.937rem;
+  --padding-12xl: 1.937rem;
+  --padding-xl: 1.25rem;
+  --padding-13xl: 2rem;
+  --padding-11xl: 1.875rem;
+  --padding-9xl: 1.75rem;
+  --padding-29xl: 3rem;
+  --padding-5xl: 1.5rem;
+  --padding-sm: 0.875rem;
+  --padding-5xs: 0.5rem;
+  --padding-14xl: 2.062rem;
+  --padding-xs: 0.75rem;
+  --padding-15xl: 2.125rem;
+  --padding-mid: 1.062rem;
+  --padding-3xs: 0.625rem;
+  --padding-6xl: 1.562rem;
+  --padding-16xl: 2.187rem;
+  --padding-9xs: 0.25rem;
+  --padding-8xl: 1.687rem;
+  --padding-12xs: 0.062rem;
+  --padding-6xs: 0.437rem;
+
+  /* Border radiuses */
+  --br-181xl: 200px;
+  --br-xl: 20px;
+  --br-61xl: 80px;
+  --br-155xl-5: 174.5px;
+}

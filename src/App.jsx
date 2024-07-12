@@ -4,7 +4,6 @@ import {
   Route,
   useNavigationType,
   useLocation,
-  BrowserRouter,
 } from "react-router-dom";
 import Frame from "./pages/Frame";
 import Sub from "./pages/Sub";

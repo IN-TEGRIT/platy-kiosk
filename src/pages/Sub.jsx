@@ -51,7 +51,7 @@ const Sub = () => {
           <div className={styles.buttonLabel}>
             <div className={styles.buttonPlaceholder}>${price * count}</div>
           </div>
-          <div className={styles.button}>
+          <div className={styles.button} onClick={() => navigate('/payMethod')}>
             <b className={styles.b}>구매하기</b>
           </div>
         </div>

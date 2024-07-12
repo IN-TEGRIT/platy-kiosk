@@ -81,3 +81,7 @@ body {
   --br-61xl: 80px;
   --br-155xl-5: 174.5px;
 }
+
+body {
+  overflow: hidden;
+}

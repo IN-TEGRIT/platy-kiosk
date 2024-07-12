@@ -1,7 +1,22 @@
 import PropTypes from "prop-types";
 import styles from "./DescriptionPanel.module.css";
+import { useState } from "react";
 
-const DescriptionPanel = ({ className = "" }) => {
+const DescriptionPanel = ({ className = "", data, event }) => {
+
+  console.log("data", data);
+  console.log("event", event);
+
+  const [onClickPlus, onClickMinus] = event;
+/*   const [count, setCount] = useState(1);
+  const [price, setPrice] = useState(100);
+
+  const onClickPlus = () => { setCount(count + 1)}
+
+  const onClickMinus = () => { 
+    if(count > 0)
+      setCount(count - 1)
+  } */
   return (
     <div className={[styles.descriptionPanel, className].join(" ")}>
       <div className={styles.titlePanel}>
@@ -51,7 +66,7 @@ const DescriptionPanel = ({ className = "" }) => {
                 </div>
               </div>
               <div className={styles.iconOption}>
-                <div className={styles.iconContainer}>
+                <div className={styles.iconContainer} onClick={onClickMinus}>
                   <div className={styles.iconSelector}>
                     <div className={styles.iconSelectorChild} />
                     <img
@@ -62,8 +77,8 @@ const DescriptionPanel = ({ className = "" }) => {
                     />
                   </div>
                 </div>
-                <div className={styles.iconLabel}>1</div>
-                <div className={styles.iconContainer1}>
+                <div className={styles.iconLabel}>{data}</div>
+                <div className={styles.iconContainer1} onClick={onClickPlus}>
                   <div className={styles.rectangleParent}>
                     <div className={styles.frameChild} />
                     <img

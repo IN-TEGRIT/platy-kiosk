@@ -4,6 +4,7 @@ import {
   Route,
   useNavigationType,
   useLocation,
+  BrowserRouter,
 } from "react-router-dom";
 import Frame from "./pages/Frame";
 import Sub from "./pages/Sub";
@@ -54,11 +55,11 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
-      <Route path="/" element={<Frame />} />
-      <Route path="/sub" element={<Sub />} />
-      <Route path="/main" element={<Main />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Frame />} />
+        <Route path="/sub" element={<Sub />} />
+        <Route path="/main" element={<Main />} />
+      </Routes>
   );
 }
 export default App;

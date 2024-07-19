@@ -24,7 +24,7 @@ function App() {
   useEffect(() => {
     timeoutRef.current = setTimeout(() => {
       navigate('/');
-    }, 10000); // 5초 후에 루트 경로로 네비게이트
+    }, 15000); // 15초 후에 루트 경로로 네비게이트
 
     return () => {
       clearTimeout(timeoutRef.current);

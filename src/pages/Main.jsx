@@ -16,7 +16,7 @@ const Main = () => {
             className={styles.maskGroupIcon}
             loading="lazy"
             alt=""
-            src="/mask-group@2x.png"
+            src="/item-group.png"
           />
           <div className={styles.grtixBestItemsContainer}>
             <p className={styles.grtix}>Grtix</p>
@@ -39,7 +39,7 @@ const Main = () => {
               <img
                 className={styles.headphoneIcon}
                 alt=""
-                src="/headphone2@2x.png"
+                src="/headphone2.png"
               />
             </div>
             <div className={styles.headphoneDetails}>
@@ -52,7 +52,7 @@ const Main = () => {
               className={styles.buttonIcon}
               loading="lazy"
               alt=""
-              src="/00-button.svg"
+              src="/icon-move-button.svg"
             />
           </div>
           <div className={styles.productKeyboard}  onClick={() => navigate('/sub')}>
@@ -60,7 +60,7 @@ const Main = () => {
               <img
                 className={styles.keyboardIcon}
                 alt=""
-                src="/keyboard@2x.png"
+                src="/keyboard.png"
               />
             </div>
             <div className={styles.keyboardDetails}>
@@ -75,7 +75,7 @@ const Main = () => {
               className={styles.buttonIcon1}
               loading="lazy"
               alt=""
-              src="/00-button-1.svg"
+              src="/icon-move-button1.svg"
             />
           </div>
         </div>
@@ -87,7 +87,7 @@ const Main = () => {
               <img
                 className={styles.speakerIcon}
                 alt=""
-                src="/speaker@2x.png"
+                src="/speaker.png"
               />
             </div>
             <div className={styles.speakerMouseDetails}>
@@ -100,12 +100,12 @@ const Main = () => {
               className={styles.buttonIcon2}
               loading="lazy"
               alt=""
-              src="/00-button-2.svg"
+              src="/icon-move-button2.svg"
             />
           </div>
           <div className={styles.speakerMouseImages1}  onClick={() => navigate('/sub')}>
             <div className={styles.wrapperMouse}>
-              <img className={styles.mouseIcon} alt="" src="/mouse@2x.png" />
+              <img className={styles.mouseIcon} alt="" src="/mouse.png" />
             </div>
             <div className={styles.speakerMouseImagesInner}>
               <div className={styles.grtixMouseParent}>
@@ -119,7 +119,7 @@ const Main = () => {
               className={styles.buttonIcon3}
               loading="lazy"
               alt=""
-              src="/00-button-3.svg"
+              src="/icon-move-button3.svg"
             />
           </div>
         </div>

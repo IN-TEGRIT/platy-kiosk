@@ -28,11 +28,11 @@ const Frame = () => {
             className={styles.bgIcon}
             loading="lazy"
             alt=""
-            src="/bg@2x.png"
+            src="/splash-bg.png"
           />
           <h1 className={styles.grtixPlace}>Grtix place</h1>
         </section>
-        <img className={styles.headphoneIcon} alt="" src="/headphone1@2x.png" />
+        <img className={styles.headphoneIcon} alt="" src="/splash-headphone.png" />
       </main>
     </div>
   );

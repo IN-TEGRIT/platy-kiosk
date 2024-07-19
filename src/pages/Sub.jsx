@@ -20,19 +20,19 @@ const Sub = () => {
     <div className={styles.sub1}>
       <img className={styles.icon} alt="" src="/.svg" />
       <section className={styles.content}>
-        <img className={styles.headphoneIcon} alt="" src="/headphone@2x.png" />
+        <img className={styles.headphoneIcon} alt="" src="/headphone.png" />
         <img
           className={styles.contentChild}
           loading="lazy"
           alt=""
-          src="/frame-1.svg"
+          src="/icon-goback.svg"
           onClick={() => navigate('/main')}
         />
         <img
           className={styles.zoomIcon}
           loading="lazy"
           alt=""
-          src="/zoom@2x.png"
+          src="/zoom.png"
         />
       </section>
       <section className={styles.rightPanel}>

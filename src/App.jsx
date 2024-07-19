@@ -31,7 +31,7 @@ function App() {
     };
   }, [navigate]);
 
-  // 사용자 입력을 감지하면 타임아웃을 초기화
+ /*  // 사용자 입력을 감지하면 타임아웃을 초기화
   const handleUserInput = () => {
     clearTimeout(timeoutRef.current);
     timeoutRef.current = setTimeout(() => {
@@ -47,7 +47,7 @@ function App() {
     return () => {
       body.removeEventListener('click', handleUserInput);
     };
-  }, []);
+  }, []); */
 
   useEffect(() => {
     if (action !== "POP") {

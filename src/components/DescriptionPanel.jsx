@@ -25,7 +25,7 @@ const DescriptionPanel = ({ className = "", data, event }) => {
             className={styles.unionIcon}
             loading="lazy"
             alt=""
-            src="/union.svg"
+            src="/goods.svg"
           />
           <div className={styles.headphoneTitleChild} />
           <div className={styles.headphoneTitleItem} />
@@ -73,7 +73,7 @@ const DescriptionPanel = ({ className = "", data, event }) => {
                       className={styles.duckIcon}
                       loading="lazy"
                       alt=""
-                      src="/vector.svg"
+                      src="/icon-minus.svg"
                     />
                   </div>
                 </div>
@@ -85,7 +85,7 @@ const DescriptionPanel = ({ className = "", data, event }) => {
                       className={styles.iconAdd}
                       loading="lazy"
                       alt=""
-                      src="/-icon-add.svg"
+                      src="/icon-add.svg"
                     />
                   </div>
                 </div>

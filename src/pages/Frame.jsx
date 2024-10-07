@@ -26,7 +26,6 @@ const Frame = () => {
         <section className={styles.welcomeMessage}>
           <img
             className={styles.bgIcon}
-            loading="lazy"
             alt=""
             src="/splash-bg.png"
           />

@@ -23,14 +23,12 @@ const Sub = () => {
         <img className={styles.headphoneIcon} alt="" src="/headphone.png" />
         <img
           className={styles.contentChild}
-          loading="lazy"
           alt=""
           src="/icon-goback.svg"
           onClick={() => navigate('/main')}
         />
         <img
           className={styles.zoomIcon}
-          loading="lazy"
           alt=""
           src="/zoom.png"
         />
@@ -41,7 +39,6 @@ const Sub = () => {
       <div className={styles.lineWrapper}>
         <img
           className={styles.lineIcon}
-          loading="lazy"
           alt=""
           src="/line.svg"
         />

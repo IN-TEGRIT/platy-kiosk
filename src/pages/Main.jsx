@@ -14,7 +14,6 @@ const Main = () => {
         <div className={styles.main1}>
           <img
             className={styles.maskGroupIcon}
-            loading="lazy"
             alt=""
             src="/item-group.png"
           />
@@ -50,7 +49,6 @@ const Main = () => {
             </div>
             <img
               className={styles.buttonIcon}
-              loading="lazy"
               alt=""
               src="/icon-move-button.svg"
             />
@@ -73,7 +71,6 @@ const Main = () => {
             </div>
             <img
               className={styles.buttonIcon1}
-              loading="lazy"
               alt=""
               src="/icon-move-button1.svg"
             />
@@ -98,7 +95,6 @@ const Main = () => {
             </div>
             <img
               className={styles.buttonIcon2}
-              loading="lazy"
               alt=""
               src="/icon-move-button2.svg"
             />
@@ -117,7 +113,6 @@ const Main = () => {
             </div>
             <img
               className={styles.buttonIcon3}
-              loading="lazy"
               alt=""
               src="/icon-move-button3.svg"
             />

@@ -126,8 +126,8 @@
   color: var(--color-white);
   font-family: var(--font-pragati-narrow);
 }
-.headphoneIcon,
-.wrapperHeadphone {
+
+.productImage {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -152,16 +152,16 @@
   justify-content: center;
 }
 .div,
-.grtixHeadphone {
+.description {
   position: relative;
   letter-spacing: -0.02em;
   line-height: 150%;
   white-space: nowrap;
   z-index: 2;
 }
-.grtixHeadphone {
+.description {
   font-weight: 500;
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
 }
 .div {
   align-self: stretch;
@@ -171,18 +171,21 @@
   display: flex;
   align-items: center;
 }
-.grtixHeadphoneParent,
-.headphoneDetails {
+.title,
+.productDetails {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  text-wrap: nowrap;
 }
-.grtixHeadphoneParent {
+.title {
   align-self: stretch;
   gap: var(--gap-6xs);
+  z-index: 1;
+  mix-blend-mode: difference;
 }
-.headphoneDetails {
+.productDetails {
   height: 35.975rem;
   width: 18.806rem;
 }
@@ -195,13 +198,13 @@
   flex-shrink: 0;
   z-index: 2;
 }
-.productHeadphone {
+.productCard {
   flex: 1;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 3.137rem var(--padding-15xl) 2.343rem 1.312rem;
+  padding: 3.137rem var(--padding-15xl) var(--padding-xl) 1.312rem;
   box-sizing: border-box;
   position: relative;
   min-width: 25.125rem;
@@ -313,7 +316,7 @@
   padding: 0 var(--padding-12xs) var(--padding-9xl) var(--padding-6xs);
   box-sizing: border-box;
   text-align: left;
-  font-size: var(--font-size-5xl-4);
+  font-size: var(--font-size-23xl);
   color: var(--color-white);
   font-family: var(--font-pretendard);
 }
@@ -532,8 +535,8 @@
   font-size: var(--font-size-64xl-7);
   font-family: var(--font-pragati-narrow);
 }
-@media screen and (max-width: 1200px) {
-  .productHeadphone,
+@media screen and (max-width: 1440px) {
+  .productCard,
   .productKeyboard {
     flex: 1;
   }
@@ -574,12 +577,12 @@
   }
 }
 @media screen and (max-width: 750px) {
-  .productHeadphone,
+  .productCard,
   .productKeyboard {
     box-sizing: border-box;
     min-width: 100%;
   }
-  .productHeadphone {
+  .productCard {
     flex-wrap: wrap;
     padding-top: var(--padding-14xl);
     padding-bottom: var(--padding-5xl);
@@ -642,7 +645,7 @@
   .featuredParent {
     flex-wrap: wrap;
   }
-  .grtixHeadphone {
+  .description {
     font-size: var(--font-size-xl);
     line-height: 1.813rem;
   }

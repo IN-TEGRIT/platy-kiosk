@@ -127,11 +127,18 @@
   font-family: var(--font-pragati-narrow);
 }
 
+.productBackground {
+  background-color: #A275DB;
+  border-radius: 80px;
+}
 .productImage {
-  height: 100%;
   width: 100%;
-  position: absolute;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   left: 0;
+  padding-top: 40px;
   z-index: 1;
 }
 .headphoneIcon {
@@ -161,7 +168,6 @@
 }
 .description {
   font-weight: 500;
-  /* mix-blend-mode: difference; */
 }
 .div {
   align-self: stretch;
@@ -186,25 +192,25 @@
   mix-blend-mode: difference;
 }
 .productDetails {
+  position: absolute;
+  top: 40px;
+  left: 40px;
   height: 35.975rem;
-  width: 18.806rem;
+  text-align: left;
 }
 .buttonIcon {
   height: 4.363rem;
   width: 4.363rem;
-  position: relative;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
   border-radius: 174.45px;
   overflow: hidden;
   flex-shrink: 0;
   z-index: 2;
 }
 .productCard {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
   justify-content: space-between;
-  padding: 3.137rem var(--padding-15xl) var(--padding-xl) 1.312rem;
   box-sizing: border-box;
   position: relative;
   min-width: 25.125rem;

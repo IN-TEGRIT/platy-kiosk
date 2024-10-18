@@ -75,7 +75,6 @@
   position: relative;
   font-size: var(--font-size-45xl);
   letter-spacing: -0.02em;
-  line-height: 150%;
   font-weight: 500;
   text-align: right;
   flex-shrink: 0;
@@ -287,7 +286,7 @@
 }
 .colorContainer {
   flex: 1;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: var(--gap-xl);
 }
 .colorPanel,

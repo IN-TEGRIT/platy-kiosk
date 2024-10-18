@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import DescriptionPanel from "../components/DescriptionPanel";
 import styles from "./Sub.module.css";
 import { useState } from "react";
@@ -7,7 +7,6 @@ const Sub = () => {
   const navigate = useNavigate();
 
   const [count, setCount] = useState(1);
-  const [price, setPrice] = useState(100);
 
   const onClickPlus = () => { setCount(count + 1)}
 
@@ -16,25 +15,23 @@ const Sub = () => {
       setCount(count - 1)
   }
 
+  const location = useLocation();
+  const { image, price: priceValue } = location.state;
+
   return (
     <div className={styles.sub1}>
       <img className={styles.icon} alt="" src="/.svg" />
       <section className={styles.content}>
-        <img className={styles.headphoneIcon} alt="" src="/headphone.png" />
+        <img className={styles.headphoneIcon} alt="" src={image} />
         <img
           className={styles.contentChild}
           alt=""
           src="/icon-goback.svg"
           onClick={() => navigate('/main')}
         />
-        <img
-          className={styles.zoomIcon}
-          alt=""
-          src="/zoom.png"
-        />
       </section>
       <section className={styles.rightPanel}>
-        <DescriptionPanel data={count} event={[onClickPlus, onClickMinus]}/>
+        <DescriptionPanel data={location.state} count={count} event={[onClickPlus, onClickMinus]}/>
       </section>
       <div className={styles.lineWrapper}>
         <img
@@ -46,7 +43,7 @@ const Sub = () => {
       <section className={styles.buttonContainer}>
         <div className={styles.buttonWrapper}>
           <div className={styles.buttonLabel}>
-            <div className={styles.buttonPlaceholder}>${price * count}</div>
+            <div className={styles.buttonPlaceholder}>${(priceValue * count).toLocaleString()}</div>
           </div>
           <div className={styles.button} onClick={() => navigate('/payMethod')}>
             <b className={styles.b}>구매하기</b>

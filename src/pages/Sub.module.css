@@ -9,9 +9,7 @@
 .headphoneIcon {
   position: absolute;
   top: 5.688rem;
-  left: -27.187rem;
-  width: 145.625rem;
-  height: 81.938rem;
+  width: 100%;
   object-fit: cover;
   z-index: 1;
 }

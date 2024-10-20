@@ -12,6 +12,7 @@ import Main from "./pages/Main";
 import PayMethod from "./pages/PayMethod";
 import Paying from "./pages/Paying";
 import PayingEnd from "./pages/PayingEnd";
+import SubVicat from "./pages/SubVicat";
 
 function App() {
   const action = useNavigationType();
@@ -21,7 +22,7 @@ function App() {
   const navigate = useNavigate();
   const timeoutRef = useRef(null);
 
-  useEffect(() => {
+  /* useEffect(() => {
     timeoutRef.current = setTimeout(() => {
       navigate('/');
     }, 15000); // 15초 후에 루트 경로로 네비게이트
@@ -29,7 +30,7 @@ function App() {
     return () => {
       clearTimeout(timeoutRef.current);
     };
-  }, [navigate]);
+  }, [navigate]); */
 
  /*  // 사용자 입력을 감지하면 타임아웃을 초기화
   const handleUserInput = () => {
@@ -92,6 +93,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Frame />} />
         <Route path="/sub" element={<Sub />} />
+        <Route path="/sub_vicat" element={<SubVicat />} />
         <Route path="/main" element={<Main />} />
         <Route path="/payMethod" element={<PayMethod />} />
         <Route path="/paying" element={<Paying />} />

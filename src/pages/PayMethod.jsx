@@ -5,7 +5,7 @@ const PayMethod = () => {
   const navigate = useNavigate();
   return (
     <div onClick={() => navigate('/paying')}>
-      <img className={styles} alt="" src="/paymethod.png" />
+      <img className={styles} alt="" src="/assets/paymethod.png" />
     </div>
   );
 };

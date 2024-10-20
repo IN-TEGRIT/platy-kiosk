@@ -3,15 +3,18 @@ import { createRoot } from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
+import { PaymentManagerContextProvider } from "./contexts/PaymentManagerContext";
 import "./global.css";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 
 root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+    <PaymentManagerContextProvider>
+      <BrowserRouter>
+          <App />
+      </BrowserRouter>
+    </PaymentManagerContextProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

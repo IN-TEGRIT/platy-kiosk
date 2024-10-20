@@ -14,9 +14,9 @@
 }
 .exploreProduct {
   position: relative;
+  color: #86E8FF;
   letter-spacing: -0.02em;
   line-height: 7.875rem;
-  mix-blend-mode: overlay;
   z-index: 1;
 }
 .exploreProductWrapper {
@@ -35,6 +35,7 @@
   margin: 0 !important;
   bottom: -0.062rem;
   left: 0;
+  border-radius: inherit;
   object-fit: cover;
 }
 .bestItems,
@@ -86,8 +87,9 @@
   z-index: 1;
 }
 .featured {
+  color: #F77ABC;
   line-height: 7.875rem;
-  mix-blend-mode: overlay;
+  /* mix-blend-mode: overlay; */
 }
 .seeAll {
   line-height: 150%;
@@ -137,8 +139,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: inherit;
   left: 0;
-  padding-top: 40px;
+  /* padding-top: 40px; */
   z-index: 1;
 }
 .headphoneIcon {
@@ -468,6 +471,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
+  border-radius: inherit;
 }
 .grtixMouseParent {
   width: 21.294rem;

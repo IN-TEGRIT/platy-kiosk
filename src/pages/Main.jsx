@@ -27,7 +27,7 @@ const Main = () => {
       title: 'Stella Vicat',
       description: '',
       buttonIconSrc: '/icon-move-button.svg',
-      onClick: () => {},
+      onClick: () => navigate('/sub_vicat'),
     },
     {
       imageSrc: '/assets/mask_airpath.png',
@@ -41,7 +41,7 @@ const Main = () => {
       title: 'Cubrick',
       description: 'AI 인포테인먼트 로봇',
       buttonIconSrc: '/icon-move-button2.svg',
-      onClick: () => navigate('/sub_vicat'),
+      onClick: () => {},
     },
     {
       imageSrc: '/assets/mask_dcornic.png',
